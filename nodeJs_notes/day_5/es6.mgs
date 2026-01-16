@@ -1,0 +1,9 @@
+// "this is the es6 module"
+export var a = 6;
+// b=10
+// console.log(a);//6
+// console.log(b);//Refference error b is not defiend
+
+// module.exports = a;
+
+
