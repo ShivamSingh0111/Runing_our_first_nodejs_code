@@ -12,7 +12,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\app.js",
+            "program": "${workspaceFolder}\\custom_npm_module\\app.js",
             // "runtimeArgs": [
             //     "--require","${workspaceFolder}\\nodeJs_notes\\day_2\\day_2_2.js" 
             // ]
