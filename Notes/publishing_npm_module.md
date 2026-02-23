@@ -1,13 +1,13 @@
 ## publish you npm package
 
-1. Create account in `npm`
+1. Create account in npm.
 2. Once you done that, Open you terminal
 3. Write this cmd `npm login`
 4. whatever package you publish fill below all details in package.json
 
 ```
 {
-    "name":"sum_calculation",
+    "name":"sum_calculation", // this one is you package name, so don't forget to add this.
     "version": "1.0.0",
     "module": "./math.mjs",
     "main": "./math.cjs",
