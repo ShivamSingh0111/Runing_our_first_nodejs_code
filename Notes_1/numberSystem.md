@@ -55,3 +55,9 @@ EiB Exbibyte 2⁶⁰ bytes
 ZiB Zebibyte 2⁷⁰ bytes
 YiB Yobibyte 2⁸⁰ bytes
 ```
+
+
+
+### sexagesimal --> base 60
+
+## eniac computer --> this computer use 10 digit decimal number rather than binary number
