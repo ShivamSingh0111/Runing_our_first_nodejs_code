@@ -61,3 +61,82 @@ YiB Yobibyte 2⁸⁰ bytes
 ### sexagesimal --> base 60
 
 ## eniac computer --> this computer use 10 digit decimal number rather than binary number
+
+
+### Character Set kya hota hai?
+
+## Character Set = characters ki list (collection)
+```
+Matlab:
+
+System me kaun-kaun se characters allowed hain
+
+📌 Example:
+Letters → A, B, C
+Numbers → 1, 2, 3
+Symbols → @, #, ₹
+
+👉 In sab ka group = Character Set
+
+🔸 Real-life example:
+
+Socho ek school hai:
+
+Students ki list: Rahul, Aman, Priya
+👉 Ye list = Character Set
+🔹 Character Encoding kya hota hai?
+```
+### Character Encoding = har character ko number/binary me convert karne ka rule
+```
+Matlab:
+
+Computer ko samjhane ke liye character ko number diya jata hai
+
+📌 Example:
+
+Character: A
+
+ASCII me → A = 65
+Binary me → 01000001
+
+👉 Ye mapping process = Encoding
+
+🔸 Real-life example:
+
+Same school:
+
+Rahul → Roll No 1
+Aman → Roll No 2
+
+👉 Roll number assign karna = Encoding
+
+🔥 Main Difference (simple table)
+Point	Character Set	Character Encoding
+Kya hai	Characters ki list	Characters ko number me convert karna
+Focus	"Kaun-kaun se characters?"	"Kaise store karenge?"
+Example	A, B, C	A = 65
+🔹 Ek line me samjho
+
+👉 Character Set = "Characters ka collection"
+👉 Encoding = "Unko machine language me convert karna"
+```
+
+
+## --> To check hex and binary value in terminal
+```
+1. xxd -b `filename` --> to convert into binary
+1. xxd  `filename` --> to convert into hex
+2. xxd -g 1 `filename` --> to convert into hexa and make 1 group because byDefault it makes 2 group.
+
+```
+
+## for utf-8 and ascii 
+```
+if char value less than 127 then computer consider 1 bytes
+
+💡 Easy yaad rakhne ka trick
+ASCII → always 1 byte
+UTF-8 → smart (1–4 byte, but <127 = 1 byte)
+UTF-16 → mostly 2 byte
+UTF-32 → always 4 byte
+```
