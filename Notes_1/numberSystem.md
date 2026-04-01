@@ -122,13 +122,7 @@ Example	A, B, C	A = 65
 ```
 
 
-## --> To check hex and binary value in terminal
-```
-1. xxd -b `filename` --> to convert into binary
-1. xxd  `filename` --> to convert into hex
-2. xxd -g 1 `filename` --> to convert into hexa and make 1 group because byDefault it makes 2 group.
 
-```
 
 ## for utf-8 and ascii 
 ```
@@ -139,4 +133,14 @@ ASCII → always 1 byte
 UTF-8 → smart (1–4 byte, but <127 = 1 byte)
 UTF-16 → mostly 2 byte
 UTF-32 → always 4 byte
+```
+
+
+
+## Notes --> To check hex and binary value in terminal
+```
+1. xxd -b `filename` --> to convert into binary
+1. xxd  `filename` --> to convert into hex
+2. xxd -g 1 `filename` --> to convert into hexa and make 1 group because byDefault it makes 2 group.
+
 ```
