@@ -1,7 +1,7 @@
 ### UTF-8 RULES --> 2 ** (remeaning space without header) -1 --> after this point byte switch on another number like 1 byte --> 2 bytes --> 3 bytes --> 4 bytes 
 1. for 1 byte char --> first value start from 0 then 7 bites --> total 8 bites --> ex:- 0xxxxxxx
-2. for 2 bytes char --> first 2 digit start from 110***** 10******
--> if utf-8 could not able to store in 7 bites then it is taking 2 bytes
+2. for 2 bytes char --> first 3 and 2  digit start from 110***** 10******
+-> if utf-8 could not able to store in first 7 bites then it is taking 2 bytes
 -> if say 2 bytes it means it does't takes 16 bites it is taking only 11 bite remeaing 5 bites is header which is fixed.
 ```
 let's understand with small example
