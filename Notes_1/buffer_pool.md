@@ -17,7 +17,7 @@ let b = Buffer.allocUnsafe(4095)
 
 ### how can you search your element which you store inside ArrayBuffer.
 
-you can find easly your array buffer but you have to do simple one thing check you byteOffset whihc is represent index you can copy and peast then find you  element.
+you can find easly your array buffer but you have to do simple one thing check you byteOffset which is represent index you can copy and paste then find you  element.
 
 
 
